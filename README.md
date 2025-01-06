@@ -219,13 +219,6 @@ Este projeto foi desenvolvido utilizando **NestJS** e **PostgreSQL**, com foco e
 
 O código foi cuidadosamente estruturado para ser limpo, legível e de fácil manutenção, refletindo a atenção aos detalhes e o compromisso com a qualidade. A arquitetura modular possibilita escalabilidade e extensões futuras, seguindo princípios **SOLID** e boas práticas do **NestJS**.  
 
-### 🔍 Avaliação do Candidato  
-Este projeto é uma representação do meu processo de raciocínio e habilidades técnicas em desenvolvimento backend. Destaco:  
-- **Capacidade de modelagem e integração de banco de dados.**  
-- **Implementação de APIs RESTful de forma eficiente e segura.**  
-- **Desenvolvimento de sistemas de importação e manipulação de grandes volumes de dados.**  
-- **Geração automatizada de relatórios e manipulação de arquivos CSV.**  
-
 Fico à disposição para discussões técnicas ou para esclarecer quaisquer detalhes do projeto.  
 
 👨‍💻 **Autor:** Bruno Mendes de Oliveira Ferreira  
