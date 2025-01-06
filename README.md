@@ -156,6 +156,8 @@ greenyellow-metrics-hub/
 ├── uploads/   # Uploads temporários
 └── README.txt
 
+\`\`\`
+
 
 ## Testes
 
