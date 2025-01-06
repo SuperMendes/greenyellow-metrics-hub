@@ -103,7 +103,7 @@ npm run start:prod
 Coloque o arquivo `METRICS_IMPORT.csv` na pasta `/import`.
 Execute o seguinte comando:
 ```bash
-curl -X POST -F "file=@/caminho/para/METRICS_IMPORT.csv" http://localhost:3000/metrics/import
+curl -X POST -F "file=@/greenyellow-metrics-hub/import/METRICS_IMPORT.csv" http://localhost:3000/metrics/import
 ```
 ---
 
@@ -172,25 +172,29 @@ greenyellow-metrics-hub/
 ## Testes
 
 ### Executar Testes Unitários
+```bash
 npm run test
-
+```
 ---
 
 ### Executar Testes e2e (End-to-End)
+```bash
 npm run test:e2e
-
+```
 ---
 
 ### Ver Cobertura de Testes
+```bash
 npm run test:cov
-
+```
 ---
 
 ## Docker (Opcional)
 
 Para rodar o PostgreSQL em um container Docker:
+```bash
 docker-compose up -d
-
+```
 ---
 
 ## Considerações Finais
