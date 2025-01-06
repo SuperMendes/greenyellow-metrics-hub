@@ -5,11 +5,6 @@ O **GreenYellow Metrics Hub** é uma aplicação robusta e escalável desenvolvi
 
 A solução automatiza o processamento de grandes volumes de dados, armazenando-os de forma eficiente em um banco de dados **PostgreSQL**. Além disso, o sistema permite a exportação de relatórios em formato **Excel**, facilitando a análise e o compartilhamento das informações processadas.  
 
-O projeto foi desenvolvido com foco em:  
-- **Desempenho** – Processamento rápido e confiável de grandes conjuntos de dados.  
-- **Escalabilidade** – Arquitetura modular e expansível, pronta para lidar com crescimento futuro.  
-- **Manutenção Simples** – Código bem estruturado, documentado e organizado, seguindo as melhores práticas do NestJS.  
-- **Segurança** – Controle de erros e validação robusta dos dados importados.  
 
 🔧 **Principais Funcionalidades:**  
 - Importação de métricas via arquivos CSV.  
@@ -214,11 +209,28 @@ docker-compose up -d
 ```
 ---
 
-## Considerações Finais
-Este projeto foi desenvolvido utilizando NestJS e PostgreSQL. O código segue boas práticas de desenvolvimento, incluindo validação de dados, logging e controle de erros.
-Para dúvidas, entre em contato pelo GitHub ou email.
+## 🏁 Considerações Finais  
 
-Autor: Bruno Mendes de Oliveira Ferreira
-E-mail: bruno_mds_@hotmail.com
+Este projeto foi desenvolvido utilizando **NestJS** e **PostgreSQL**, com foco em desempenho, escalabilidade e boas práticas de engenharia de software. O sistema implementa:  
+- **Validação de Dados:** Garantia de integridade e consistência em todas as operações de importação e agregação.  
+- **Logging Estruturado:** Registros detalhados para facilitar o monitoramento e depuração.  
+- **Tratamento de Erros:** Abordagem robusta para lidar com falhas, prevenindo que o sistema se comporte de forma inesperada.  
+- **Geração de Relatórios:** Exportação de métricas em formato **Excel** usando a biblioteca **ExcelJS**, simplificando a análise e visualização dos dados.  
 
->>>>>>> 2c08c0a (Corrigido repositório interno duplicado)
+O código foi cuidadosamente estruturado para ser limpo, legível e de fácil manutenção, refletindo a atenção aos detalhes e o compromisso com a qualidade. A arquitetura modular possibilita escalabilidade e extensões futuras, seguindo princípios **SOLID** e boas práticas do **NestJS**.  
+
+### 🔍 Avaliação do Candidato  
+Este projeto é uma representação do meu processo de raciocínio e habilidades técnicas em desenvolvimento backend. Destaco:  
+- **Capacidade de modelagem e integração de banco de dados.**  
+- **Implementação de APIs RESTful de forma eficiente e segura.**  
+- **Desenvolvimento de sistemas de importação e manipulação de grandes volumes de dados.**  
+- **Geração automatizada de relatórios e manipulação de arquivos CSV.**  
+
+Fico à disposição para discussões técnicas ou para esclarecer quaisquer detalhes do projeto.  
+
+👨‍💻 **Autor:** Bruno Mendes de Oliveira Ferreira  
+📧 **E-mail:** [bruno_mds_@hotmail.com](mailto:bruno_mds_@hotmail.com)  
+🔗 **GitHub:** [SuperMendes](https://github.com/SuperMendes)  
+
+Agradeço a oportunidade de participar do processo seletivo e estou entusiasmado com a possibilidade de contribuir com a equipe! 🚀  
+
