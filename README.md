@@ -139,26 +139,23 @@ Saída: Arquivo Excel salvo em `/reports`.
 ---
 
 ## Estrutura das Pastas
+
+```bash
 greenyellow-metrics-hub/
-│
 ├── src/
-│ ├── metric/
-│ │ ├── metric.controller.ts
-│ │ ├── metric.service.ts
-│ │ ├── metric.entity.ts
-│ │ └── dto/
-│ │ └── get-aggregation.dto.ts
-│ │
-│ ├── config/
-│ │ └── database.config.ts
-│ │
-├── reports/# Relatórios Excel gerados
-├── import/ # Arquivos CSV para importação
-├── uploads/# Uploads temporários
-│
+│   ├── metric/
+│   │   ├── metric.controller.ts
+│   │   ├── metric.service.ts
+│   │   ├── metric.entity.ts
+│   │   └── dto/
+│   │       └── get-aggregation.dto.ts
+│   └── config/
+│       └── database.config.ts
+├── reports/   # Relatórios Excel gerados
+├── import/    # Arquivos CSV para importação
+├── uploads/   # Uploads temporários
 └── README.txt
 
----
 
 ## Testes
 
