@@ -1,10 +1,27 @@
-# GreenYellow Metrics Hub - README
+# 📊 GreenYellow Metrics Hub  
 
-## Descrição do Projeto
-O GreenYellow Metrics Hub é um sistema desenvolvido com NestJS para importação, agregação e geração de relatórios de métricas a partir de arquivos CSV.
-Este projeto realiza o processamento de dados, armazena em um banco PostgreSQL e permite a exportação de relatórios em formato Excel.
+## Descrição do Projeto  
+O **GreenYellow Metrics Hub** é uma aplicação robusta e escalável desenvolvida com **NestJS** para importação, agregação e geração de relatórios de métricas a partir de arquivos CSV.  
 
----
+A solução automatiza o processamento de grandes volumes de dados, armazenando-os de forma eficiente em um banco de dados **PostgreSQL**. Além disso, o sistema permite a exportação de relatórios em formato **Excel**, facilitando a análise e o compartilhamento das informações processadas.  
+
+O projeto foi desenvolvido com foco em:  
+- **Desempenho** – Processamento rápido e confiável de grandes conjuntos de dados.  
+- **Escalabilidade** – Arquitetura modular e expansível, pronta para lidar com crescimento futuro.  
+- **Manutenção Simples** – Código bem estruturado, documentado e organizado, seguindo as melhores práticas do NestJS.  
+- **Segurança** – Controle de erros e validação robusta dos dados importados.  
+
+🔧 **Principais Funcionalidades:**  
+- Importação de métricas via arquivos CSV.  
+- Armazenamento seguro e eficiente no banco PostgreSQL.  
+- Agregação de métricas por dia, mês ou ano.  
+- Exportação de relatórios Excel contendo os dados agregados.  
+
+🚀 **Tecnologias Utilizadas:**  
+- **NestJS** – Framework Node.js moderno, eficiente e escalável.  
+- **TypeORM** – ORM para integração com PostgreSQL.  
+- **ExcelJS** – Geração de relatórios no formato Excel.  
+
 
 ## Estrutura do Projeto
 
